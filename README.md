@@ -1,14 +1,16 @@
 ![tests](https://github.com/elena-bio/simple-app/actions/workflows/tests.yml/badge.svg)
 
-# simple-app
+# Simple Python App (pytest + Docker)
 
-Mini Docker + pytest sample.
+## Run
+python app.py add 5 3  
+python app.py sub 5 3
 
-## Run locally
-pip install -r requirements.txt
+## Test
 pytest
 
-## Run with Docker
+## Docker
 docker build -t simple-python-app .
-docker run --rm simple-python-app
+docker run simple-python-app
+
 
